@@ -6,5 +6,10 @@ namespace tpmod3_103022300069
         {
             InitializeComponent();
         }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            lblOutput.Text = "Halo, " + formNama.Text;
+        }
     }
 }
